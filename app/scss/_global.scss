@@ -6,6 +6,8 @@ body {
 	margin: 0;
 	scroll-behavior: smooth;
 	font-family: 'Inter';
+	font-size: 18px;
+	line-height: 142.4%;
 	font-weight: 400;
 	color: #333;
 }
@@ -20,7 +22,13 @@ button{
 	cursor: pointer;
 }
 .container{
-	max-width: 1537px;
+	max-width: 1337px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container-header{
+	max-width: 1625px;
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;

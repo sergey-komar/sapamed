@@ -22,16 +22,35 @@ button{
 	cursor: pointer;
 }
 .container{
-	max-width: 1337px;
+	max-width: 1507px;
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 .container-header{
-	max-width: 1625px;
+	max-width: 1825px;
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+.button{
+	position: relative;
+	width: 211px;
+    height: 40px;
+    border: none;
+    background: #F6C443;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.button::before{
+	position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url('../images/icon/footer-icon-btn.svg') no-repeat;
+    left: 14px;
+    top: 14px
 }
 a{
 	color: inherit;

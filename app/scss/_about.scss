@@ -1,0 +1,122 @@
+.about__subtitle {
+    margin-top: 50px;
+    margin-bottom: 87px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 135%;
+}
+.about__inner {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.about__title {
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135%;
+}
+.about__text {
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 135%;
+}
+.about__text span{
+    font-weight: 700;
+}
+.about__block {
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    margin-bottom: 60px;
+}
+.about__item {
+    display: flex;
+    align-items: center;
+}
+
+.about__item-text {
+    width: 250px;
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 135%;
+}
+
+.about-slider{
+    padding-top: 100px;
+}
+.about-slider .slider-doctor__text{
+    max-width: 1300px;
+}
+
+.mission {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.mission__inner {
+    padding: 58px 100px 80px 100px;
+    border: 8px solid #F6C443;
+}
+.mission__title {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135%;
+    text-align: center;
+}
+.mission__text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 135%;
+    text-align: center;
+}
+
+.values{
+    padding-top: 80px;
+}
+.values__title {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 135%;
+}
+.values__text {
+    margin-bottom: 61px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+}
+.values__block {
+    display: flex;
+    justify-content: space-between;
+}
+.values__item {
+    max-width: 690px;
+    display: flex;
+    border: 1px solid #000;
+}
+.values__item-img img{
+    height: 100%;
+}
+.values__item-content {
+    max-width: 400px;
+    padding: 65px 50px;
+}
+.values__item-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+}
+.values__item-text {
+    font-size: 16px;
+}
+
+.request-bottom.about{
+    padding-top: 120px;
+}

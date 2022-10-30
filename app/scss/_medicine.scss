@@ -1,0 +1,377 @@
+.survey {
+    padding-top: 60px;
+    padding-bottom: 94px;
+}
+
+.survey__title {
+    margin-bottom: 60px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 135%;
+    color: #333333;
+}
+.survey__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.survey__item {
+    display: flex;
+    width: 100%;
+}
+.survey__item-text {
+    width: 50%;
+    padding: 60px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    border: 1px solid #BDBDBD;
+}
+.survey__item-img {
+    width: 50%;
+}
+.survey__item-img img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+// medical-examination
+.medical-examination{
+    margin-top: 132px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background: #F9F9F9;
+}
+.selection-medicine{
+    padding-top: 51px;
+}
+
+.medical-examination__title {
+    margin-bottom: 58px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 135%;
+}
+.medical-examination__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 70px;
+}
+.medical-examination__item {
+    max-width: 420px;
+}
+.medical-examination__item-title {
+    margin-top: 34px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.medical-examination__text {
+    margin-top: 124px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+
+
+
+// medicine-icon
+.medicine-icon {
+    padding-top: 112px;
+}
+
+.medicine-icon__inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.medicine-icon__item {
+    width: 180px;
+}
+.medicine-icon__item-img img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.medicine-icon__item-text {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: center;
+}
+
+
+// triangle
+.triangle {
+    padding-top: 120px;
+    padding-bottom: 87px;
+}
+
+.triangle__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.triangle__inner-img {
+    clip-path: polygon(78% 0, 100% 50%, 100% 50%, 78% 99%, 1% 100%, 0 1%);
+}
+.triangle__inner-content {
+    max-width: 660px;
+    margin-left: 20px;
+}
+.triangle__inner-title {
+    margin-bottom: 44px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 135%;
+}
+.triangle__inner-subtitle {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%
+}
+.triangle__bottom {
+    margin-top: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.triangle__bottom-img img{
+    min-width: 80px;
+}
+.triangle__bottom-text {
+    margin-left: 40px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+
+
+// .medicine-price
+.medicine-price{
+    padding-bottom: 90px;
+}
+.medicine-price__block {
+    margin-bottom: 56px;
+    padding: 80px;
+    background: url('../images/page-medicine/medicine-price.jpg') no-repeat;
+    border-radius: 20px;
+}
+.medicine-price__block-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 135%;
+    color: #FFFFFF;
+}
+.medicine-price__box {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.medicine-price__box-title {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 135%;
+}
+.medicine-price__box-text {
+    margin-bottom: 40px;
+}
+.medicine-price__box-subtitle {
+    font-weight: 700;
+}
+
+
+
+// 
+.arthritis-medicine{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-bottom: 60px;
+    background: #F9F9F9;
+}
+.arthritis-medicine__block{
+    align-items: center;
+}
+.arthritis-medicine__bottom-text span{
+    font-weight: 700;
+}
+.arthritis-medicine__text{
+    margin-top: 30px;
+    font-weight: 600;
+}
+.medicine-hisar{
+    font-weight: 400;
+}
+.medicine-hisar span{
+    font-weight: 600;
+}
+.medicine-wellness__content-text span{
+    font-weight: 700;
+}
+.medicine-wellness__content{
+    max-width: 100%;
+}
+.medicine-wellness__img {
+    min-width: 177px;
+}
+.medicine-wellness__block{
+    align-items: center;
+}
+.medicine-wellness__bottom-text span{
+    font-weight: 600;
+}
+.medicine-hisar{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+
+
+// .medicine-work
+.medicine-work {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background:url('../images/page-medicine/medicine-work.jpg') no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.medicine-work__title {
+    margin-bottom: 62px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 135%;
+}
+.medicine-work__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.medicine-work__content {
+    max-width: 620px;
+}
+.medicine-work__content-text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 135%;
+}
+
+
+
+// medicine-hizar
+.medicine-hizar {
+    padding-top: 80px;
+    padding-bottom: 155px;
+    background: #F9F9F9;
+}
+
+.medicine-hizar__title {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 135%;
+}
+.medicine-hizar__block {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding: 36px 96px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.medicine-hizar__block-title {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.medicine-hizar__box {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.medicine-hizar__content {
+    max-width: 890px;
+    margin-left: 50px;
+}
+.medicine-hizar__content-text {
+    margin-bottom: 26px;
+}
+.medicine-hizar__content-subtitle {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+}
+.medicine-hizar__bottom {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+}
+.medicine-hizar__bottom-item {
+    width: 260px;
+}
+.medicine-hizar__bottom-title {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+}
+.medicine-hizar__bottom-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+}
+.medicine-hizar__footer-img img{
+    min-width: 51px;
+}
+.medicine-hizar__footer{
+    display: flex;
+}
+.medicine-hizar__footer-text {
+    margin-left: 28px;
+}
+.medicine-hizar__footer-text span{
+    font-weight: 700;
+}
+
+
+
+// 
+.heading-block-medicine{
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+.heading-block-medicine__text{
+    font-size: 18px;
+}
+.heading-block-medicine__text span{
+    font-weight: 700;
+}
+.heading-block-medicine__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.liv__box.medicine-liv-clinic{
+    margin-top: 0;
+}
+.medicine-liv-clinic{
+    margin-bottom: 100px;
+}

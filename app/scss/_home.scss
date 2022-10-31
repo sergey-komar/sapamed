@@ -404,6 +404,13 @@ blockquote::before{
     font-size: 16px;
     line-height: 135%;
 }
+.directions-block__btn{
+    width: 310px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #000;
+    display: none;
+}
 // HELP
 .help {
     padding-top: 150px;
@@ -498,6 +505,7 @@ strong{
     display: flex;
     gap: 100px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .services__item {
     max-width: 281px;
@@ -529,18 +537,24 @@ strong{
 .calculation__form {
     padding-top: 46px;
     padding-bottom: 46px;
-    margin-left: 73px;
-    margin-right: 190px;
     max-width: 788px;
 }
-.calculation::before{
-    position: absolute;
-    content: '';
-    width: 325px;
-    height: 397px;
-    background: url('../images/services-doctor.png') no-repeat;
-    bottom: 0;
-    left: 90px;
+// .calculation::before{
+//     position: absolute;
+//     content: '';
+//     width: 325px;
+//     height: 397px;
+//     background: url('../images/services-doctor.png') no-repeat;
+//     bottom: 0;
+//     left: 90px;
+// }
+.calculation__inner{
+    display: flex;
+    height: 300px;
+}
+.calculation__inner-img{
+    margin-right: 90px;
+    transform: translateY(-100px);
 }
 .calculation__form-title {
     margin-bottom: 28px;

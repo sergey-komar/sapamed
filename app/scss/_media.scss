@@ -1,0 +1,866 @@
+// mobile
+.nav-icon{
+    width: 35px;
+    display: none;
+    position: relative;
+    z-index: 20;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.nav-icon::before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: url('../images/icon/header-phone.svg') no-repeat;
+    top: -10px;
+    left: -35px;
+}
+.nav-icon__middle{
+    position: relative;
+    width: 35px;
+    height: 3px;
+    background-color: transparent;
+    transition: all .2s ease-in;
+    background-color: #333;
+}
+.nav-icon__middle::after,
+.nav-icon__middle::before{
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 3px;
+    background-color: #333;
+}
+.nav-icon__middle::after{
+    bottom: 6px;
+    transition: all .2s ease-in;
+}
+.nav-icon__middle::before{
+    top: 6px;
+    transition: all .2s ease-in;
+}
+
+.nav-icon.nav-icon--active .nav-icon__middle{
+    background-color: transparent;
+    transition: all .2s ease-in;
+}
+.nav-icon.nav-icon--active .nav-icon__middle::after{
+    transform: rotate(45deg);
+    bottom: 0;
+    transition: all .2s ease-in;
+}
+.nav-icon.nav-icon--active .nav-icon__middle::before{
+    transform: rotate(-45deg);
+    top: 0; 
+    transition: all .2s ease-in;
+}
+.header-mobile__form{
+    display: none;
+}
+@media(max-width:1460px){
+    .menu__list-item+.menu__list-item {
+        margin-left: 20px;
+    }
+    .header__right-btn,
+    .header__center-address{
+        margin-left: 0;
+    }
+    .header__center-block{
+        margin-left: 40px;
+    }
+    .header__right-btn{
+        width: 190px;
+    }
+    .header__center {
+        margin-left: 15px;
+        width: 60%;
+    }
+    .heading__form{
+        margin-left: 0;
+    } 
+    .heading-block__inner {
+        flex-wrap: wrap;
+    }
+    .heading__inner-wrapper{
+        justify-content: center;
+    }
+    .heading-block{
+        max-width: 600px;
+    }
+    .heading-info{
+        margin-top: -35px;
+    }
+}
+
+
+@media(max-width:1350px){
+    .slider-doctor__block-item{
+        width: 240px;
+    }
+}
+
+@media(max-width:1300px){
+    .video__block{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+
+
+@media(max-width:1200px){
+    .header__left {
+        width: 140px;
+    }
+    .logo{
+        max-width: 100%;
+    }
+    .header__center{
+        width: 40%;
+    }
+    .header__right{
+        width: 500px;
+    }
+    .menu__list{
+        margin-left: 10px;
+    }
+    .heading-block__item,
+    .heading-block__item-text {
+        width: 220px;
+    }
+    .heading-info {
+        margin-top: 0px;
+    }
+    .heading-block__text{
+        margin-bottom: 15px;
+    }
+    .heading__inner-wrapper{
+        padding-top: 20px;
+    }
+    .tourism__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tourism__content{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .calculation__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+    }
+    .calculation__inner-img{
+        transform: translateY(0);
+        margin-right: 0;
+    }
+}
+
+
+
+@media(max-width:1100px){
+    .arthritis__block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .arthritis__img {
+        margin-left: 0;
+        order: -1;
+        margin-bottom: 30px;
+    }
+    .services{
+        padding-bottom: 10px;
+    }
+    .slider-reviews__item {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+@media(max-width:1000px){
+    .header__center-address{
+        display: none;
+    }
+    .header__right {
+        width: 420px;
+    }
+    .header__right-text{
+        display: none;
+    }
+    .header__center {
+        border-left: none;
+        border-right: none;
+    }
+    .header,
+    .header__center-top,
+    .header__right-top {
+        border-bottom: none;
+    }
+    .header__right {
+        width: 353px;
+        margin-left: 0;
+    }
+    .header__right-btn{
+        font-size: 12px;
+        height: 45px;
+    }
+    .header__right-top{
+        padding-left: 0;
+    }
+    .header__center{
+        width: 55%;
+    }
+    .header__right{
+        width: 30%;
+    }
+    .header__right-block{
+        display: none;
+    }
+    .heading__inner-wrapper{
+        flex-wrap: wrap;
+    }
+    .heading-block{
+        max-width: 100%;
+    }
+    .heading-block__item-title{
+        margin-bottom: 5px;
+        font-size: 35px;
+    }
+    .heading-block__item-text{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .heading-block__item-title::before{
+        top: 45px;
+    }
+    .heading__form{
+        margin-top: 15px;
+    }
+    .directions-block,
+    .help__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .services__inner {
+        justify-content: center;
+    }
+    .slider-reviews {
+        padding-top: 15px;
+        padding-bottom: 80px;
+    }
+    .slider-doctor__block-item {
+        width: 240px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .selection-box {
+        display: block;
+    }
+    .selection-box__item{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .selection-box__item-text{
+        width: 100%;
+    }
+    .why__block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .why__block-item{
+        margin-bottom: 30px;
+    }
+    .request__block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .why{
+        padding-bottom: 0;
+    }
+    .request{
+        background-size: cover;
+    }
+    .request__block-form {
+         margin-left: 0px; 
+        margin-top: 30px;
+    }
+    .wellness__block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .wellness__content {
+        margin-top: 30px;
+        margin-left: 0px;
+        max-width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:750px){
+    .header__right-btn{
+        width: 140px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .header__right-email{
+        display: none;
+    }
+    .header__center {
+        width: 85%;
+    }
+    .header__right{
+        width: 15%;
+    }
+    .heading-block__title {
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+    .heading-block__text{
+        font-size: 18px;
+    }
+    .heading-info__inner{
+        flex-wrap: wrap;
+    }
+    .heading-info__item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .heading-info__item-title{
+        margin-bottom: 5px;
+    }
+    .heading-info__title{
+        margin-bottom: 25px;
+    }
+    .heading{
+        height: 920px;
+    }
+    .heading-info__title {
+        margin-top: 10px;
+        font-size: 22px;
+        line-height: 130%;
+    }
+    .heading-info {
+        padding: 10px;
+    }
+    .heading-info__item-title {
+        font-size: 18px;
+    }
+    .heading-info__item-text {
+        font-size: 16px;
+    }
+    .heading-info__item-title{
+        margin-left: 25px;
+    }
+    .heading-info__item-title::before{
+        left: -25px;
+    }
+    .tourism__title{
+        font-size: 22px;
+    }
+    .tourism {
+        padding-top: 35px;
+    }
+    .directions{
+        padding-top: 20px;
+    }
+    .help{
+        padding-top: 40px;
+    }
+    .algorithm__block{
+        flex-wrap: wrap;
+    }
+    .algorithm__item-top{
+        transform: translateY(0);
+    }
+    .medicine__top {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:650px){
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: #fff;
+        right: 0;;
+        left: 0;
+        top: 0;
+        transition: all .4s ease-in;
+        transform: translateX(-100%);
+        z-index: 19;
+    }
+    .menu.nav--active{
+        transform: translateX(0);
+    }
+    .nav-icon{
+        display: block;
+    }
+    .menu__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px !important;
+       margin-top: 160px;
+    }
+    .header__right-btn{
+        display: none;
+    }
+    .header__left{
+        width: 100%;
+    }
+    .header__inner{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .header__center-top{
+        display: none;
+    }
+    .header__center {
+        width: 0%;
+    }
+    .header__logo{
+        position: relative;
+        z-index: 20;
+    }
+    .menu__list-item + .menu__list-item {
+        margin-left: 0px;
+    }
+    .menu__list-item{
+        margin-bottom: 18px;
+    }
+    .menu__list-link{
+        font-size: 16px;
+    }
+    .menu__list{
+        margin-top: 90px;
+        align-items: flex-start;
+    }
+    .header-mobile__form{
+        display: block;
+    }
+    .header-mobile__form{
+        transform: translateY(100px);
+    }
+    .header-mobile__form-input{
+        padding: 5px;
+        padding-left: 30px;
+        border: 1px solid #BDBDBD;
+        border-radius: 5px;
+    }
+    .header-mobile__form-input::placeholder{
+        font-size: 14px;
+    }
+    .header-mobile__form-btn{
+        position: relative;
+        font-size: 0;
+        padding: 0;
+    }
+    .header-mobile__form-btn::after{
+        position: absolute;
+        content: '';
+        width: 30px;
+        height: 30px;
+        background: url('../images/icon/search-header.svg') no-repeat;
+        left: 15px;
+        top: -12px;
+    }
+    .services__item{
+        max-width: 100%;
+    }
+    .services__inner{
+        gap: 20px;
+    }
+    .calculation__inner{
+        padding: 10px;
+    }
+    .calculation__form-input{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .calculation__form-btn.button{
+        width: 100%;
+        margin-left: 0;
+    }
+    .arthritis__bottom-img img{
+        min-width: 60px;
+    }
+    .arthritis__bottom{
+        align-items: flex-start;
+    }
+    .arthritis__img {
+        min-width: auto;
+    }
+    .slider-reviews__item {
+        max-width: 220px;
+    }
+}
+
+
+
+
+
+@media(max-width:550px){
+    .heading-block__title {
+        font-size: 24px;
+    }
+    .heading-block__text {
+        font-size: 16px;
+    }
+    .heading-block__item-title {
+        font-size: 24px;
+    }
+    .heading-block__item-text{
+        font-size: 14px;
+    }
+    .heading-block__item-link {
+        font-size: 14px;
+    }
+    .heading-block__item,
+    .heading-block__item-text{
+        width: 130px;
+    }
+    .heading-block__item{
+        margin-bottom: 15px;
+    }
+    .heading__form{
+        padding: 10px;
+        max-width: 100%;
+    }
+    .heading__form-input,
+    .heading__form-btn.button{
+        width: 100%;
+    }
+    .heading__form-title{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .heading__form-text{
+        line-height: 16px;
+    }
+    .heading-block__item-title::before{
+        top: 34px;
+        width: 65px;
+    }
+    .heading-block__item-link::before{
+        top: 0;
+    }
+    .heading__form-btn.button::before{
+        left: 53px;
+    }
+    .tourism__title{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .tourism__content-text{
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    .tourism__content-title{
+        margin-bottom: 15px;
+    }
+    .tourism__content-blockquote{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 80px;
+        font-size: 16px;
+    }
+    .tourism__bottom-img img{
+        max-width: 60px;
+    }
+    .tourism__bottom-text{
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    .tourism__inner {
+        margin-bottom: 25px;
+    }
+    .tourism{
+        padding-bottom: 25px;
+    }
+    .directions-block__wrapper-mobile{
+        display: none;
+    }
+    .directions-block__btn{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    .help__service-bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .help__service{
+        margin-left: 0;
+    }
+    .help__service-item{
+        margin-bottom: 15px;
+    }
+    .directions__title {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .directions-block{
+        justify-content: flex-start;
+    }
+    .help__service-top {
+        margin-bottom: 25px;
+        padding: 10px;
+    }
+    .help__service-item-text{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .directions-block__item a{
+        margin-bottom: 25px;
+    }
+    .directions{
+        padding-bottom: 20px;
+    }
+    .services__title {
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    .services__item-title{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    .services__item-text{
+        width: 100%;
+        font-size: 16px;
+    }
+    .calculation__form {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .calculation__form-title {
+        font-size: 20px;
+    }
+    .calculation__inner{
+        margin-top: 40px;
+    }
+    .questions__title{
+        margin-bottom: 5px;
+    }
+    .questions{
+        padding-bottom: 0;
+    }
+    .arthritis__title{
+        font-size: 20px;
+    }
+    .arthritis__content-text{
+        font-size: 16px;
+    }
+    .arthritis__block{
+        margin-bottom: 15px;
+    }
+    .arthritis__bottom-text {
+        margin-left: 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .algorithm__item:nth-child(2n){
+        margin-left: auto;
+    }
+    .algorithm__title{
+        margin-bottom: 30px;
+        font-size: 22px;
+        text-align: left;
+    }
+    .algorithm {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .algorithm__item{
+        margin-bottom: 15px;
+    }
+    .slider-reviews__item{
+        max-width: 100%;
+    }
+    .doctor__arrows-right::after, 
+    .doctor__arrows-right::before{
+        top: 100px;
+    }
+    .slider-doctor__content{
+        transform: translateY(-30px);
+    }
+    .slider-doctor__title{
+        font-size: 22px;
+    }
+    .slider-reviews__content{
+        flex-wrap: wrap;
+    }
+    .slider-reviews__title{
+        font-size: 22px;
+    }
+    .slider-doctor {
+        padding-bottom: 50px;
+    }
+    .reviews__arrows-left::after, 
+    .reviews__arrows-right::before{
+        top: 40px;
+    }
+    .selection-box__item-img img{
+        width: 80px;
+    }
+    .why {
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .why__title{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+    .why__block-item img{
+        width: 100px;
+    }
+    .why__block-title{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .request__block-title {
+        font-size: 24px;
+        line-height: 115%;
+    }
+    .request {
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+    .request__block-text{
+        font-size: 16px;
+    }
+    .kinds__title {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .kinds {
+        padding-top: 37px;
+        padding-bottom: 15px;
+    }
+    .kinds-box__item {
+       margin-bottom: 20px;
+    }
+    .organization__title {
+        font-size: 22px;
+        line-height: 120%;
+    }
+    .organization {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .organization__text {
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    .organization__block{
+        gap: 30px;
+    }
+    .organization__block-text {
+        margin-left: 20px;
+        max-width: 280px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .wellness__title{
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .wellness {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .wellness__content-text,
+    .wellness__center-text,
+    .wellness__bottom-text{
+        font-size: 16px;
+    }
+    .medicine__item-text{
+        margin-top: 10px;
+    }
+    .medicine__item{
+        margin-top: 30px;
+    }
+    .medicine__btn{
+        margin-top: 25px;
+        width: 100%;
+    }
+    .hisar__title {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .hisar__text{
+        font-size: 16px;
+    }
+    .hisar__reviews{
+        padding-left: 80px;
+        font-size: 16px;
+    }
+    .hisar{
+        margin-bottom: 25px;
+    }
+    .benefits__block-item{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .benefits__block-img img{
+        width: 120px;
+    }
+    .benefits__block-text{
+        margin-left: 15px;
+        width: 100%;
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .benefits__block{
+        gap: 30px;
+    }
+    .benefits__title {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+    .benefits {
+        padding-top: 45px;
+        padding-bottom: 35px;
+    }
+    .video__title {
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+    .video__item-text {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .video {
+        padding-bottom: 35px;
+    }
+
+}

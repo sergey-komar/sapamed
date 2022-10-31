@@ -31,7 +31,14 @@
             </div>
           </div>
           <div class="header__center-bottom">
+            
             <nav class="menu">
+              <form action="#" class="header-mobile__form">
+                <div class="header-mobile__form-row">
+                  <button class="header-mobile__form-btn"></button>
+                  <input type="text" class="header-mobile__form-input" placeholder="Искать врача или специальность" required>
+                </div>
+              </form>
               <ul class="menu__list">
                 <li class="menu__list-item active">
                   <a href="#" class="menu__list-link">Главная</a>
@@ -50,6 +57,7 @@
                 </li>
               </ul>
             </nav>
+           
           </div>
         
       
@@ -63,16 +71,21 @@
             </p>
           </div>
           <button class="header__right-btn">Записаться на прием</button>
+         
         </div>
         <div class="header__right-bottom">
           <a href="mailto:" class="header__right-email">info@hisarhospital.com</a>
         </div>
       </div>
+
+      <div class="nav-icon">
+        <div class="nav-icon__middle"></div>
+      </div>
     </div>
   </div>
 </header>
  
-<main class="main">
+ <main class="main">
   <section class="heading">
     <div class="container">
       <div class="heading__inner">
@@ -123,8 +136,9 @@
           </form>
         </div>
       </div>
-    </div>
+   </div>
   </section>
+
   <div class="heading-bottom">
     <div class="container">
       <div class="heading-info">
@@ -148,7 +162,7 @@
       </div>
     </div>
   </div>
-
+ 
   <div class="tourism">
     <div class="container">
       <h3 class="tourism__title">
@@ -165,7 +179,7 @@
           <p class="tourism__content-text">
             В последние годы современная медицина активно развивается, ученые-исследователи используют в сфере лечения и обследования болезней инновационные технологии. Но со всего мира можно выделить лишь несколько стран, развитие медицины в которых можно назвать передовым. Наиболее подходящей страной для лечения жителей Казахстана и других стран СНГ считается Турция. Специфика и стоимость организации вашей медицинской поездки в Турцию в большей степени зависит от ваших предпочтений и нужд. 
           </p>
-          <blockquote>
+          <blockquote class="tourism__content-blockquote">
             Мы предоставляем услуги по организации лечения граждан Казахстана и других стран СНГ в нашей клинике от заболеваний разной степени. Мы создали сочетание современных технологий и принципов качественного и оперативного обслуживания. Hisar Intercontinental Hospital занимает площадь в 8 этажей общей площадью 35 000 квадратных метров. 
           </blockquote>
           <p class="tourism__content-text">
@@ -240,7 +254,7 @@
             </li>
           </ul>
          
-          <ul class="directions-block__wrapper">
+          <ul class="directions-block__wrapper directions-block__wrapper-mobile">
             <li class="directions-block__item">
               <a href="#">
                 <img src="./images/directionsicon/directions-10.svg" alt="img" class="directions-block__item-img">
@@ -291,7 +305,7 @@
             </li>
           </ul>
          
-          <ul class="directions-block__wrapper">
+          <ul class="directions-block__wrapper directions-block__wrapper-mobile">
             <li class="directions-block__item">
               <a href="#">
                 <img src="./images/directionsicon/directions-17.svg" alt="img" class="directions-block__item-img">
@@ -342,7 +356,7 @@
             </li>
           </ul>
         
-          <ul class="directions-block__wrapper">
+          <ul class="directions-block__wrapper directions-block__wrapper-mobile">
             <li class="directions-block__item">
               <a href="#">
                 <img src="./images/directionsicon/directions-25.svg" alt="img" class="directions-block__item-img">
@@ -394,6 +408,7 @@
           </ul>
           
         </div>
+        <button class="directions-block__btn">Показать ещё</button>
       </div>
 
       <div class="help">
@@ -501,6 +516,9 @@
 
       <div class="calculation">
         <div class="calculation__inner">
+          <div class="calculation__inner-img">
+            <img src="./images/services-doctor.png" alt="img">
+          </div>
           <form action="#" class="calculation__form">
             <div class="calculation__form-title">Расчет стоимости</div>
             <input type="tel" class="calculation__form-input" placeholder="Телефон" required>
@@ -511,6 +529,7 @@
           </form>
         </div>
       </div>
+
 
       <section class="questions">
         <div class="container">
@@ -1361,18 +1380,25 @@
     </div>
   </div>
 
-  <div class="calculation">
-    <div class="calculation__inner">
-      <form action="#" class="calculation__form">
-        <div class="calculation__form-title">Расчет стоимости</div>
-        <input type="tel" class="calculation__form-input" placeholder="Телефон" required>
-        <button class="calculation__form-btn button">Отправить заявку</button>
-        <p class="calculation__form-text">
-          * Точная стоимость зависит от сложности заболевания, необходимой диагностики, объема процедур и конкретной клиники. Отправив запрос на нашем сайте, вы получите предварительный расчет на электронную почту.
-        </p>
-      </form>
+  <div class="container">
+    <div class="calculation">
+      <div class="calculation__inner">
+        <div class="calculation__inner-img">
+          <img src="./images/services-doctor.png" alt="img">
+        </div>
+        <form action="#" class="calculation__form">
+          <div class="calculation__form-title">Расчет стоимости</div>
+          <input type="tel" class="calculation__form-input" placeholder="Телефон" required>
+          <button class="calculation__form-btn button">Отправить заявку</button>
+          <p class="calculation__form-text">
+            * Точная стоимость зависит от сложности заболевания, необходимой диагностики, объема процедур и конкретной клиники. Отправив запрос на нашем сайте, вы получите предварительный расчет на электронную почту.
+          </p>
+        </form>
+      </div>
     </div>
   </div>
+
+ 
 
   <div class="benefits">
     <div class="container">
@@ -1483,7 +1509,7 @@
       </div>
     </div>
   </div>
-
+<!--
   <div class="price">
     <div class="container">
       <div class="price__title">
@@ -1985,7 +2011,7 @@
     </div>
   </div>
   
-</footer>
+</footer> -->
 
   <script src="js/main.min.js"></script>
 </body>

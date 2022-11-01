@@ -91,23 +91,121 @@ $('.experts-doctor__block').slick({
   appendArrows: '.experts-doctor__arrows',
   prevArrow: '<button type="button" class="doctor__arrows-left">Previous</button>',
   nextArrow: '<button type="button" class="doctor__arrows-right">Next</button>',
-  
+  responsive: [
+          {
+            breakpoint: 1360,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 1000,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 760,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 550,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+        
 });
+
+
+
 
 $('.slider-about__block').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
   appendArrows: '.slider-about__arrows',
   prevArrow: '<button type="button" class="doctor__arrows-left">Previous</button>',
-  nextArrow: '<button type="button" class="doctor__arrows-right">Next</button>'
+  nextArrow: '<button type="button" class="doctor__arrows-right">Next</button>',
+  responsive: [
+          {
+            breakpoint: 1360,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 1000,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 760,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 550,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
 });
+
+
+
 $('.slider-reviews__block-about').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   appendArrows: '.slider-reviews__arrows-about',
   prevArrow: '<button type="button" class="doctor__arrows-left">Previous</button>',
-  nextArrow: '<button type="button" class="doctor__arrows-right">Next</button>'
+  nextArrow: '<button type="button" class="doctor__arrows-right">Next</button>',
+  responsive: [
+      {
+        breakpoint: 920,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
 });
+
+
 
 const medicineBtn = document.querySelector('.medicine__btn');
 const medicineBottom = document.querySelector('.medicine__bottom');
@@ -138,5 +236,17 @@ if( medicineBtn){
         directionsBlockBtn.style.display = 'none';
       })
     })
+
+    const directionsBlockBtnDowble = document.querySelector('.directions-block__btn-dowble');
+  const directionBlockWrapperMobileDowble = document.querySelectorAll('.directions-block__wrapper-mobile--dowble');
+  if(directionsBlockBtnDowble){
+    directionsBlockBtnDowble.addEventListener('click', ()=>{
+      directionBlockWrapperMobileDowble.forEach(item =>{
+          item.style.display = 'block';
+          directionsBlockBtnDowble.style.display = 'none';
+        })
+      })
+  }
+ 
 
 })

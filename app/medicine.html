@@ -30,6 +30,12 @@
             </div>
             <div class="header__center-bottom">
                 <nav class="menu">
+                  <form action="#" class="header-mobile__form">
+                    <div class="header-mobile__form-row">
+                      <button class="header-mobile__form-btn"></button>
+                      <input type="text" class="header-mobile__form-input" placeholder="Искать врача или специальность" required>
+                    </div>
+                  </form>
                 <ul class="menu__list">
                     <li class="menu__list-item active">
                     <a href="./index.html" class="menu__list-link">Главная</a>
@@ -66,6 +72,9 @@
             <a href="mailto:" class="header__right-email">info@hisarhospital.com</a>
             </div>
         </div>
+          <div class="nav-icon">
+            <div class="nav-icon__middle"></div>
+          </div>
         </div>
     </div>
 </header>  
@@ -201,7 +210,7 @@
                 </li>
               </ul>
              
-              <ul class="directions-block__wrapper">
+              <ul class="directions-block__wrapper directions-block__wrapper-mobile">
                 <li class="directions-block__item">
                   <a href="#">
                     <img src="./images/directionsicon/directions-10.svg" alt="img" class="directions-block__item-img">
@@ -252,7 +261,7 @@
                 </li>
               </ul>
              
-              <ul class="directions-block__wrapper">
+              <ul class="directions-block__wrapper directions-block__wrapper-mobile">
                 <li class="directions-block__item">
                   <a href="#">
                     <img src="./images/directionsicon/directions-17.svg" alt="img" class="directions-block__item-img">
@@ -303,7 +312,7 @@
                 </li>
               </ul>
             
-              <ul class="directions-block__wrapper">
+              <ul class="directions-block__wrapper directions-block__wrapper-mobile">
                 <li class="directions-block__item">
                   <a href="#">
                     <img src="./images/directionsicon/directions-25.svg" alt="img" class="directions-block__item-img">
@@ -355,6 +364,7 @@
               </ul>
               
             </div>
+            <button class="directions-block__btn">Показать ещё</button>
           </div>
     
           <div class="help">
@@ -403,7 +413,7 @@
         </div>
       </section>
     
-      <section class="services">
+      <section class="services services-medicine">
         <div class="container">
           <div class="services__title">Дополнительные услуги</div>
           <div class="services__inner">
@@ -462,6 +472,9 @@
     
           <div class="calculation">
             <div class="calculation__inner">
+              <div class="calculation__inner-img">
+                <img src="./images/services-doctor.png" alt="img">
+              </div>
               <form action="#" class="calculation__form">
                 <div class="calculation__form-title">Расчет стоимости</div>
                 <input type="tel" class="calculation__form-input" placeholder="Телефон" required>
@@ -472,8 +485,10 @@
               </form>
             </div>
           </div>
+          
         </div>
       </section> 
+       
       <section class="slider">
         <div class="container">
 
@@ -667,7 +682,7 @@
                     <p class="survey__item-text">
                         Мы предлагаем туристические поездки, целью которых является обследование и лечение в Турции для граждан Казахстана. Медицинский туризм в Турции является эффективным и качественным, в соответствии с уровнем жизни. Клиенты и их близкие, страдающие различными заболеваниями, обращаются к нам за помощью. В нашей клинике вы гарантированно получите качественную медицинскую помощь, которую оказывают только квалифицированные врачи, имеющие большой опыт работы с гражданами Турции и иностранных государств. 
                     </p>
-                    <div class="survey__item-img">
+                    <div class="survey__item-img survey__item-img--order">
                         <img src="./images/page-medicine/survey-1.jpg" alt="img">
                     </div>
                 </div>
@@ -683,7 +698,7 @@
                     <p class="survey__item-text">
                         Мы создали сочетание современных технологий и принципов для качественного и быстрого обслуживания. Многие из наших клиентов, которые прошли хотя бы один медицинский осмотр в Турции, настолько довольны, что теперь приезжают на осмотр каждые шесть месяцев или ежегодно. Для тех, кто беспокоится о неточном диагнозе или некачественном лечении, которое может быть предложено вам в ближайшей больнице в вашем регионе, обращение к нам - настоящая палочка-выручалочка. 
                     </p>
-                    <div class="survey__item-img">
+                    <div class="survey__item-img survey__item-img--order">
                         <img src="./images/page-medicine/survey-3.jpg" alt="img">
                     </div>
                 </div>
@@ -699,7 +714,7 @@
         </div>
       </div>
 
-      <div class="algorithm">
+      <div class="algorithm algorithm-medicine">
         <div class="container">
           <div class="algorithm__title">
             Алгоритм обращения в медицинскую органицацию для иностранного гражданина
@@ -1204,7 +1219,7 @@
       </div>
 
 
-      <div class="medicine">
+      <div class="medicine medicine-medicine">
         <div class="container">
           <div class="medicine__inner">
             <div class="medicine__top">
@@ -1440,7 +1455,7 @@
       </div>
 
 
-      <div class="wellness">
+      <div class="wellness wellness-medicine">
         <div class="container">
           <div class="wellness__title">
             Цена и стоимость обследования и лечения в Турции / Стамбуле для пациентов из Казахстана 
@@ -1744,7 +1759,7 @@
                   </li>
                 </ul>
                
-                <ul class="directions-block__wrapper">
+                <ul class="directions-block__wrapper directions-block__wrapper-mobile--dowble">
                   <li class="directions-block__item">
                     <a href="#">
                       <img src="./images/directionsicon/directions-10.svg" alt="img" class="directions-block__item-img">
@@ -1795,7 +1810,7 @@
                   </li>
                 </ul>
                
-                <ul class="directions-block__wrapper">
+                <ul class="directions-block__wrapper directions-block__wrapper-mobile--dowble">
                   <li class="directions-block__item">
                     <a href="#">
                       <img src="./images/directionsicon/directions-17.svg" alt="img" class="directions-block__item-img">
@@ -1846,7 +1861,7 @@
                   </li>
                 </ul>
               
-                <ul class="directions-block__wrapper">
+                <ul class="directions-block__wrapper directions-block__wrapper-mobile--dowble">
                   <li class="directions-block__item">
                     <a href="#">
                       <img src="./images/directionsicon/directions-25.svg" alt="img" class="directions-block__item-img">
@@ -1898,6 +1913,7 @@
                 </ul>
                 
               </div>
+              <button class="directions-block__btn-dowble">Показать ещё</button>
             </div>
         </div>
       </div>
@@ -2161,7 +2177,7 @@
       </div>
 
 
-      <div class="request-bottom">
+      <div class="request-bottom request-bottom-medicine">
         <div class="container">
           <div class="request-bottom__inner">
             <div class="request-bottom__content">
@@ -2211,7 +2227,7 @@
       </div>
     
     
-</main>
+</main> 
 <footer class="footer">
     <div class="container">
       <div class="footer__inner">

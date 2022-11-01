@@ -1,4 +1,12 @@
 // mobile
+
+.directions-block__btn-dowble{
+    width: 310px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #000;
+    display: none;
+}
 .nav-icon{
     width: 35px;
     display: none;
@@ -58,7 +66,7 @@
 .header-mobile__form{
     display: none;
 }
-@media(max-width:1460px){
+@media(max-width:1490px){
     .menu__list-item+.menu__list-item {
         margin-left: 20px;
     }
@@ -91,6 +99,20 @@
     .heading-info{
         margin-top: -35px;
     }
+    .liv__block{
+        justify-content: center;
+    }
+    
+}
+
+@media(max-width:1400px){
+    .values__block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .values__item{
+        margin-top: 30px;
+    }
 }
 
 
@@ -98,7 +120,10 @@
     .slider-doctor__block-item{
         width: 240px;
     }
+    
 }
+
+
 
 @media(max-width:1300px){
     .video__block{
@@ -156,6 +181,44 @@
         transform: translateY(0);
         margin-right: 0;
     }
+    .team__block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team__info{
+        margin-top: 30px;
+    }
+    .experts{
+        padding-bottom: 50px;
+    }
+    .team__content-title{
+        font-size: 22px;
+    }
+    .dmu__block{
+        flex-wrap: wrap;
+       
+    }
+    .footer__item::before{
+        display: none;
+    }
+    .triangle__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .triangle__inner-content {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .medicine-hizar__box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .medicine-hizar__content {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
 }
 
 
@@ -178,7 +241,63 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .price__block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .price__content {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .treatment__block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .treatment {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .treatment__img {
+        margin-left: 0px;
+        min-width: auto;
+    }
+    .dmu-bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dmu-bottom__right {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .contact__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .survey__item {
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+    .survey__item-text,
+    .survey__item-img{
+        width: 100%;
+    }
+    .survey__item-img--order{
+        order: -1;
+    }
+    .survey__item-text{
+        border: none;
+        padding: 10px;
+    }
+    .medicine-work__block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
+
+
 
 
 
@@ -300,9 +419,63 @@
         margin-left: 0px;
         max-width: 100%;
     }
+    .dmu__item{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .request-bottom__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .request-bottom__form{
+        margin-top: 30px;
+    }
+    .about__subtitle {
+        margin-top: 20px;
+        margin-bottom: 20px
+
+}
+    .mission {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 
 }
 
+
+
+
+@media(max-width:850px){
+    .liv__box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .liv__box-content {
+        margin-top: 30px;
+         margin-left: 0px; 
+        max-width: 100%;
+    }
+    .liv__item{
+        max-width: 100%;
+    }
+    .liv__item-content{
+        padding: 10px;
+    }
+    .footer__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .contact__box{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .contact__box-info {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+    
+}
 
 
 
@@ -388,6 +561,22 @@
     }
     .medicine__top {
         justify-content: center;
+    }
+    .request-bottom__inner{
+        padding: 20px;
+    }
+    .about__block{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .about__item{
+        margin-bottom: 20px;
+    }
+    .mission__inner{
+        padding: 20px;
+    }
+    .medicine-work__content{
+        max-width: 100%;
     }
 }
 
@@ -516,7 +705,25 @@
     .slider-reviews__item {
         max-width: 220px;
     }
+    .values__item {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .medicine-work__content-text{
+        max-width: 100%;
+    }
+    .medicine-hizar__bottom {
+        flex-wrap: wrap;
+    }
+    .medicine-hizar {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
 }
+
+
+
 
 
 
@@ -861,6 +1068,476 @@
     }
     .video {
         padding-bottom: 35px;
+    }
+    .price__bottom-img img {
+        min-width:60px;
+    }
+    .price__bottom {
+        align-items: flex-start;
+    }
+    .price__title{
+        font-size: 22px;
+    }
+    .price__content-text{
+        font-size: 16px;
+    }
+    .price__bottom-text {
+        margin-left: 21px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .price__img {
+        min-width: 100%;
+    }
+    .price {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+    .price__block{
+        margin-bottom: 5px;
+    }
+    .liv__item{
+        flex-direction: column;
+    }
+    .liv__item-img {
+        min-width: auto;
+    }
+    .liv__box-img {
+        min-width: 100%;
+    }
+    .liv__item-title{
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    .liv__box-title{
+        font-size: 20px;
+    }
+    .liv__box-subtitle{
+        font-size: 16px;
+    }
+    .liv__box-phone{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .liv__item{
+        align-items: center;
+    }
+    .experts .doctor__arrows-right::after, 
+    .experts .doctor__arrows-right::before {
+        top: 245px;
+    }
+    .experts{
+        padding-bottom: 0;
+    }
+    .team__info-img {
+        min-width: 50px;
+    }
+    .team__info-box {
+        max-width: 100%;
+        margin-left: 20px;
+    }
+    .team {
+        padding-bottom: 0px;
+    }
+    .team__info-item{
+        margin-bottom: 25px;
+        align-items: flex-start;
+    }
+    .treatment__title{
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    .treatment__content-text{
+        font-size: 16px;
+    }
+    .treatment__reviews{
+        padding: 15px;
+        font-size: 16px;
+    }
+    .treatment__reviews p {
+        margin-left: 80px;
+    }
+    .dmu__title,
+    .dmu-bottom__left-title{
+        font-size: 22px;
+    }
+    .dmu__content-title{
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    .dmu__content-text{
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .dmu__number {
+        width: 55px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .dmu-bottom__img{
+        min-width: 50px;
+    }
+    .dmu {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .dmu__content-phone,
+    .dmu__content-arrows{
+        font-size: 16px;
+    }
+    .dmu__block {
+        margin-bottom: 20px;
+    }
+    .dmu-bottom__item {
+        align-items: flex-start;
+    }
+    .request-bottom__content-phone--one::before, 
+    .request-bottom__content-phone--two::before{
+        display: none;
+    }
+    .request-bottom__content-title{
+        font-size: 22px;
+    }
+    .request-bottom__content-box{
+        flex-wrap: wrap;
+    }
+    .request-bottom__content-text{
+        margin-bottom: 10px;
+    }
+    .request-bottom__form{
+        margin-top: 10px;
+    }
+    .footer__inner{
+        justify-content: flex-start;
+    }
+    .footer__item-btn{
+        margin-bottom: 20px;
+    }
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .footer__list-item, 
+    .footer__menu-list-item {
+        margin-bottom: 10px;
+    }
+    .footer__item-title,
+    .footer__item-phone,
+    .footer__item-email{
+        margin-bottom: 10px;
+    }
+    .about__subtitle {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    .about__title{
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .about__text{
+        text-align: unset;
+        max-width: 100%;
+        font-size: 16px;
+    }
+    .about__item-text {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    .about__block{
+        margin-bottom: 20px;
+    }
+    .about-slider{
+        padding-top: 65px;
+    }
+    .about-slider .doctor__arrows-right::after, 
+    .about-slider .doctor__arrows-right::before{
+        top: 260px;
+    }
+   .mission__title{
+        margin-bottom: 5px;
+        font-size: 22px;
+   }
+   .mission__text{
+        font-size: 16px;
+   }
+   .values__title{
+        font-size: 20px;
+   }
+   .values{
+        padding-top: 40px;
+   }
+   .values__text{
+        margin-bottom: 10px;
+   }
+   .values__item-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+   }
+   .values__item-content{
+        padding: 15px;
+   }
+   .values__item-img--order{
+        order: -1;
+   }
+   .about-reviews .doctor__arrows-right::after,
+   .about-reviews .doctor__arrows-right::before {
+        top: 126px;
+    }
+    .doctor__arrows-left, 
+    .doctor__arrows-right{
+        z-index: 10;
+    }
+    .about-reviews .slider-reviews{
+        padding-bottom: 40px;
+    }
+    .request-bottom.about{
+        padding-top: 40px;
+    }
+    .contact__title {
+        padding-top: 20px;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .contact__subtitle {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }    
+    .contact__box-content-address{
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .contact__box-content-email {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .contact__box-content-time{
+        font-size: 16px;
+    }
+    .map-contact{
+        height: 300px;
+    }
+    .contact__box-info-phone--one, 
+    .contact__box-info-phone--two{
+        font-size: 16px;
+    }
+    .contact__box-info-text {
+        margin-bottom: 20px;
+    }
+    .contact__inner{
+        padding-bottom: 20px;
+    }
+    .map {
+        padding-bottom: 25px;
+    }
+    .services-medicine{
+        padding-bottom: 50px;
+    }
+    .survey__item-text{
+        font-size: 16px;
+        border: 1px solid #BDBDBD;
+    }
+    .survey {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .survey__title{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .algorithm-medicine{
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    .medical-examination__title{
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    .medical-examination{
+        margin-top: 30px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .medical-examination__item-title {
+        margin-top: 15px;
+    }
+    .medical-examination__item-text{
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .medical-examination__text{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .medicine-icon {
+        padding-top: 30px;
+    }
+    .medicine-icon__item {
+         width: 100%; 
+        display: flex;
+        align-items: center;
+    }
+    .medicine-icon__item-text{
+        margin-left: 15px;
+        font-size: 14px;
+        margin-top: 0;
+        width: 100%;
+        text-align: unset;
+    }
+    .triangle {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .triangle__bottom-img img {
+        min-width: 50px;
+    }
+    .triangle__bottom{
+        margin-top: 35px;
+        align-items: flex-start;
+    }
+    .triangle__bottom-text{
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    .triangle__inner-title{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .triangle__inner-subtitle{
+        font-size: 20px;
+    }
+    .triangle__inner-content {
+        font-size: 16px;
+    }
+    .medicine-price__block{
+        padding: 30px;
+        margin-bottom: 25px;
+    }
+    .medicine-price__block-title{
+        font-size: 22px;
+    }
+    .medicine-price__box-title{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .medicine-price__box-text{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .medicine-price__box-subtitle{
+        font-size: 16px;
+    }
+    .medicine-price {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .medicine-price__block{
+        background-size: cover;
+    }
+    .arthritis-medicine {
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin-bottom: 0px;
+    }
+    .arthritis-medicine__text{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .medicine-medicine{
+        padding-bottom: 30px;
+    }
+    .wellness-medicine .wellness__title {
+        font-size: 20px;
+    }
+    .wellness-medicine .wellness__block{
+        margin-bottom: 0;
+    }
+    .medicine-work__title{
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .medicine-work__content-text{
+        font-size: 16px;
+    }
+    .directions-block__btn-dowble{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    .medicine-hizar__block{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    .medicine-hizar__title{
+        font-size: 20px;
+    }
+    .medicine-hizar__block-title{
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .medicine-hizar__block-text{
+        font-size: 16px;
+    }
+    .medicine-hizar__content-text{
+        font-size: 16px;
+    }
+    .medicine-hizar__content-subtitle{
+        font-size: 18px;
+    }
+    .medicine-hizar__bottom-title{
+        font-size: 22px;
+    }
+    .medicine-hizar__bottom-text{
+        font-size: 16px;
+    }
+    .medicine-hizar__bottom-title{
+        margin-bottom: 0;
+    }
+    .medicine-hizar__footer-text{
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .medicine-hizar__box{
+        margin-bottom: 25px;
+    }
+    .heading-block-medicine {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .medicine-liv-clinic {
+        margin-bottom: 30px;
+    }
+    .request-bottom-medicine{
+        padding-bottom: 40px;
+    }
+    .directions-block__wrapper-mobile--dowble{
+        display: none;
+    }
+    .treatment-hizar {
+        margin-top: 0;
+    }
+    .treatment-hizar__text{
+        font-size: 16px;
+    }
+    .tretment-calculation {
+        padding-top: 0px;
+    }
+    .slider-reviews-treatment{
+        padding-bottom: 15px;
+    }
+    .triangle__inner-img.triangle-treatment__inner-img{
+        order: -1;
+    }
+    .triangle-treatment{
+        padding-bottom: 50px;
+    }
+    .algorithm-treatment{
+        padding-top: 10px;
+    }
+    .request-bottom-treatment{
+        padding-bottom: 50px;
     }
 
 }

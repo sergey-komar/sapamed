@@ -411,6 +411,29 @@ blockquote::before{
     border: 1px solid #000;
     display: none;
 }
+
+
+
+
+  ._hidden {
+    display: none;
+  }
+.directions-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.directions-block__item{
+    width: 230px;
+}
+li{
+    list-style: none;
+}
+
+
+
+
+
+
 // HELP
 .help {
     padding-top: 150px;
